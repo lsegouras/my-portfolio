@@ -1,10 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./components/Menu"
+import Menu from "./components/pages/Menu"
 
 function App() {
   return (
-    <Navbar />
+    <Menu />
   );
 }
 
