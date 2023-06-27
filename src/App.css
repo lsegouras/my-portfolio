@@ -2,6 +2,11 @@
 
 :root{
   --light-grey: #F2F2F2;
+  --light-pink: #F2C6A0;
+  --medium-pink: #D99C79;
+  --light-brown: #593122;
+  --dark-pink: #8C3730;
+  --medium-black: #0D0D0D;
 }
 
 /* RESET */
@@ -14,30 +19,30 @@
 
 /* NAVBAR */
 
-nav{
-  background-color: #0D0D0D;
+.navbar{
+  background-color: var(--medium-black);
+  min-height: 70px;
 }
 
 .navbar-brand{
   font-weight: 600;
   cursor: pointer;
   text-transform: uppercase;
-  color: var(--light-grey) !important;
+  color: var(--light-pink) !important;
 }
 
-nav a.nav-link{
-  font-weight: 600;
+#nav .nav-link{
+  font-weight: 500;
   letter-spacing: 0.0375rem;
   cursor: pointer;
-}
-
-nav ul li{
-  text-transform: uppercase;
-}
-
-.navbar-nav > li > a{
-  color: var(--light-grey);
+  color: var(--light-pink);
   margin-right: 0.75rem;
-  margin-left: 0.75rem;
+  /* margin-left: 0.75rem; */
+  text-transform: uppercase;
+  border-top: 0.1875rem solid var(--medium-black);
+}
+
+#nav .nav-link:focus{
+  border-top: 0.1875rem solid var(--dark-pink);
 }
 
