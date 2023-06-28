@@ -3,6 +3,7 @@
 .navbar{
     background-color: var(--medium-black);
     min-height: 70px;
+    z-index: 2;
   }
   
   .navbar-brand{
@@ -26,3 +27,31 @@
   #nav .nav-link:focus{
     border-top: 0.1875rem solid var(--dark-pink);
   }
+
+  @media(max-width: 768px){
+    .navbar-brand{
+        font-size: 1.125rem;
+    }
+    #nav .nav-link{
+      font-size: 0.875rem;
+    }
+}
+
+@media(max-width: 480px){
+  .navbar-brand{
+      font-size: 0.875rem;
+  }
+  #nav .nav-link{
+    font-size: 0.75rem;
+  }
+}
+
+@media(max-width: 364px){
+  .navbar{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .toggle{
+    font-size: 0.75rem;
+  }
+}

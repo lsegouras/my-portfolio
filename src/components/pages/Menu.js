@@ -10,14 +10,14 @@ const Menu = () => {
 <Navbar expand="lg" className="navbar">
       <Container>
         <Navbar.Brand className="navbar-brand" href="#home">Portfolio de Laura Segouras</Navbar.Brand>
-        <Navbar.Toggle style={{ backgroundColor: "#F2C6A0"}} aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle className="toggle" style={{ backgroundColor: "#F2C6A0"}} aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse className="collapse" id="basic-navbar-nav">
           <Nav className="ms-auto" id="nav">
             <Nav.Link className="nav-link" href="#Sobre Mim">Sobre Mim</Nav.Link>
             <Nav.Link className="nav-link" href="#Objetivos">Objetivos</Nav.Link>
             <Nav.Link className="nav-link" href="#Experiência">Experiência</Nav.Link>
             <Nav.Link className="nav-link" href="#Portfolio">Portfolio</Nav.Link>
-            <Nav.Link className="nav-link" href="Contatos">Contatos</Nav.Link>
+            <Nav.Link className="nav-link" href="#Contatos">Contatos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
