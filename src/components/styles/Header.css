@@ -1,6 +1,6 @@
 .header-wraper{
     position: relative;
-    background: url(../imgs/mulher-interna-digitando-e-mail-navegando-na-net-gerada-por-ia.jpg) no-repeat;
+    background: url(../assets/mulher-interna-digitando-e-mail-navegando-na-net-gerada-por-ia.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -26,24 +26,6 @@
 .typed-text{
     font-size: 2rem;
     color: var(--light-pink);
-}
-
-.header-contact-btn{
-    border: 2px solid var(--light-brown);
-    text-transform: uppercase;
-    border-radius: 0.625rem;
-    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-    color: var(--light-grey);
-    margin: 2rem;
-    font-weight: 500;
-    color: var(--light-pink);
-}
-
-.header-contact-btn:hover{
-    text-decoration: none;
-    background-color: var(--light-brown);
-    color: var(--light-pink);
-    transition: .3s ease-in-out;
 }
 
 @media(max-width: 480px){

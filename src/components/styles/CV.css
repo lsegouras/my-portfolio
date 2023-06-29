@@ -1,0 +1,18 @@
+.header-contact-btn{
+    border: 2px solid var(--light-brown);
+    text-transform: uppercase;
+    border-radius: 0.625rem;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: var(--light-grey);
+    margin: 2rem 1rem;
+    font-weight: 500;
+    color: var(--light-pink);
+    min-width: 50%;
+}
+
+.header-contact-btn:hover{
+    background-color: var(--light-brown);
+    color: var(--light-pink);
+    transition: .3s ease-in-out;
+    font-weight: 600;
+}

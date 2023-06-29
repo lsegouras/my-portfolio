@@ -7,6 +7,15 @@
   --light-brown: #593122;
   --dark-pink: #8C3730;
   --medium-black: #0D0D0D;
+  --lighter-blue: #e8eced;
+  --light-blue: #bbc6c9;
+  --medium-light-blue: #8FA1A6;
+  --medium-blue:#728084;
+  --dark-blue: #556063;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
 }
 
 /* RESET */
@@ -14,5 +23,106 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+section{
+  margin-top: 8rem;
+  background-color: var(--dark-blue);
+}
+
+section > h1{
+  font-size: 2.5rem;
+}
+
+section > h2{
+  color: var(--lighter-blue);
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+section > h5, section > p{
+  color: var(--medium-light-blue);
+  text-align: center;
+  font-weight: 500;
+}
+
+section > p {
+  font-weight: 300;
+}
+
+.text-light{
+  color: var(--lighter-blue);
+}
+
+section > a{
+  color: var(--medium-light-blue);
+  transition: all 400ms ease-in-out
+}
+
+section > a:hover{
+  color: var(--medium-blue);
+}
+
+section .btn{
+  width: max-content;
+  display: inline-block;
+  color: var(--medium-light-blue);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--medium-light-blue);
+  transition: all 400ms ease-in-out
+}
+
+section .btn:hover{
+  background-color: var(--medium-blue);
+  border-color: transparent;
+}
+
+section > img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px){
+  .container{
+    width: var(--container-width-md);
+  }
+
+  section{
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .container{
+    width: var(--container-width-sm);
+  }
+
+  section > h2{
+    margin-bottom: 2rem;
+  }
+}
+

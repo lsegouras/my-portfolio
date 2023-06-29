@@ -65,7 +65,7 @@ const HeaderDesign = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 5,
+              speed: 4,
               straight: false,
             },
             number: {

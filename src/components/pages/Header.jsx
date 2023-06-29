@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Header.css";
 import Typed from "react-typed";
-import Nav from 'react-bootstrap/Nav';
+import CVCtn from "../utils/CV";
 
 const Header = () => {
   return (
@@ -20,7 +20,7 @@ const Header = () => {
           backSpeed={70}
           loop
         />
-        <Nav.Link className="header-contact-btn" href="#Contato">Fale comigo!!!</Nav.Link>
+          <CVCtn />
       </div>
     </div>
   );
