@@ -1,0 +1,112 @@
+.about-container{
+    /* display: grid;
+    grid-template-columns: 35% 55%;
+    gap: 10%; */
+    display: flex;
+    gap: 3rem;
+}
+
+.about-container .about-me{
+    width: 23%;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg, 
+        transparent, 
+        var(--light-pink), 
+        transparent);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 300px;
+    position: relative;
+}
+
+.about-me img{
+    border-radius: 2rem;
+}
+
+.about-me .about-me-img{
+    /* overflow: hidden; */
+    transform: rotate(10deg);
+    transition: var(--transition);
+    position: absolute;
+}
+
+.about-me .about-me-img:hover{
+    transform: rotate(0deg);
+}
+
+.about-cards{
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+}
+
+.about-cards .about-card{
+    background-color: var(--medium-pink);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    margin: 0 30px;
+    padding: 0.5rem;
+    text-align: center;
+    width: 33%;
+    transition: var(--transition);
+}
+
+.about-cards .about-card:hover{
+    background: transparent;
+    color: var(--light-pink);
+}
+
+.about-card h5{
+    font-size: 1rem;
+}
+
+.about-content .about-icon{
+    color: var(--dark-pink);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about-card small{
+    font-size: 0.7rem;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-content > p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+    text-align: justify;
+    color: var(--medium-pink);
+}
+
+.contact-btn{
+    border: 2px solid var(--light-brown);
+    text-transform: uppercase;
+    border-radius: 0.625rem;
+    padding: 0.5rem;
+    font-weight: 500;
+    color: var(--light-pink);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.contact-btn:hover{
+    background-color: var(--dark-pink);
+    color: var(--light-pink);
+    transition: .5s ease-in-out;
+    font-weight: 600;
+    border: none;
+}
+

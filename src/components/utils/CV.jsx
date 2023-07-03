@@ -5,10 +5,10 @@ import "../styles/CV.css";
 const CV = () => {
   return (
     <div className='cnt d-flex'>
-      <a className='header-contact-btn' href='#Contatos'>
-        Fale Comigo
+      <a className='contact-btn' href='#Contatos'>
+        Fale Comigo!
       </a>
-      <a className='header-contact-btn' href={Curriculo} download>
+      <a className='contact-btn' href={Curriculo} download>
         Baixar CV
       </a>
     </div>

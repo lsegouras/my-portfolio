@@ -13,7 +13,7 @@ const Menu = () => {
         <Navbar.Toggle className="toggle" style={{ backgroundColor: "#F2C6A0"}} aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="collapse" id="basic-navbar-nav">
           <Nav className="ms-auto" id="nav">
-            <Nav.Link className="nav-link" href="#Sobre Mim">Sobre Mim</Nav.Link>
+            <Nav.Link className="nav-link" href="#About">Sobre Mim</Nav.Link>
             <Nav.Link className="nav-link" href="#Objetivos">Objetivos</Nav.Link>
             <Nav.Link className="nav-link" href="#Experiência">Experiência</Nav.Link>
             <Nav.Link className="nav-link" href="#Portfolio">Portfolio</Nav.Link>

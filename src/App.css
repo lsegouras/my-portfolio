@@ -3,15 +3,10 @@
 :root{
   --light-grey: #F2F2F2;
   --light-pink: #F2C6A0;
-  --medium-pink: #D99C79;
+  --medium-pink: #d8936b;
   --light-brown: #593122;
   --dark-pink: #8C3730;
   --medium-black: #0D0D0D;
-  --lighter-blue: #e8eced;
-  --light-blue: #bbc6c9;
-  --medium-light-blue: #8FA1A6;
-  --medium-blue:#728084;
-  --dark-blue: #556063;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -46,8 +41,8 @@ body{
 }
 
 section{
-  margin-top: 8rem;
-  background-color: var(--dark-blue);
+  background-color: var(--medium-black);
+  padding: 20px;
 }
 
 section > h1{
@@ -55,14 +50,14 @@ section > h1{
 }
 
 section > h2{
-  color: var(--lighter-blue);
+  color: var(--dark-pink);
   text-align: center;
   margin-bottom: 3rem;
   font-weight: 700;
 }
 
 section > h5, section > p{
-  color: var(--medium-light-blue);
+  color: var(--light-pink);
   text-align: center;
   font-weight: 500;
 }
@@ -72,31 +67,31 @@ section > p {
 }
 
 .text-light{
-  color: var(--lighter-blue);
+  color: var(--light-pink);
 }
 
 section > a{
-  color: var(--medium-light-blue);
+  color: var(--light-pink);
   transition: all 400ms ease-in-out
 }
 
 section > a:hover{
-  color: var(--medium-blue);
+  color: var(--dark-pink);
 }
 
 section .btn{
   width: max-content;
   display: inline-block;
-  color: var(--medium-light-blue);
+  color: var(--medium-pink);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--medium-light-blue);
+  border: 1px solid var(--medium-pink);
   transition: all 400ms ease-in-out
 }
 
 section .btn:hover{
-  background-color: var(--medium-blue);
+  background-color: var(--dark-pink);
   border-color: transparent;
 }
 
@@ -109,10 +104,6 @@ section > img {
 @media screen and (max-width: 1024px){
   .container{
     width: var(--container-width-md);
-  }
-
-  section{
-    margin-top: 6rem;
   }
 }
 

@@ -15,19 +15,17 @@ const HeaderDesign = () => {
   }, []);
 
   return (
-    <div>
       <Particles
         id='tsparticles' className="particles"
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-          fpsLimit: 120,
+          fpsLimit: 80,
+          fullScreen: {
+            enable: false,
+          },
           interactivity: {
             events: {
-              onClick: {
-                enable: true,
-                mode: "push",
-              },
               onHover: {
                 enable: true,
                 mode: "repulse",
@@ -36,11 +34,11 @@ const HeaderDesign = () => {
             },
             modes: {
               push: {
-                quantity: 4,
+                quantity: 2,
               },
               repulse: {
                 distance: 200,
-                duration: 0.4,
+                duration: 0.8,
               },
             },
           },
@@ -56,7 +54,7 @@ const HeaderDesign = () => {
               width: 2,
             },
             collisions: {
-              enable: true,
+              enable: false,
             },
             move: {
               direction: "none",
@@ -65,7 +63,7 @@ const HeaderDesign = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 4,
+              speed: { min: 1, max: 4 },
               straight: false,
             },
             number: {
@@ -76,19 +74,18 @@ const HeaderDesign = () => {
               value: 120,
             },
             opacity: {
-              value: 0.5,
+              value: { min: 0.3, max: 0.7 },
             },
             shape: {
               type: "circle",
             },
             size: {
-              value: { min: 1, max: 6 },
+              value: { min: 1, max: 5 },
             },
           },
           detectRetina: true,
         }}
       />
-    </div>
   );
 };
 

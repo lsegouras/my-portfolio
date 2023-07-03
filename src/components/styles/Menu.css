@@ -22,6 +22,7 @@
     /* margin-left: 0.75rem; */
     text-transform: uppercase;
     border-top: 0.1875rem solid var(--medium-black);
+    margin-top: 10px;
   }
   
   #nav .nav-link:focus{
@@ -34,6 +35,11 @@
     }
     #nav .nav-link{
       font-size: 0.875rem;
+    }
+    #nav .nav-link:focus{
+      border-top: none;
+      font-size: 1rem;
+      color: var(--dark-pink);
     }
 }
 
