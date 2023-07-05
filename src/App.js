@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Menu from "./components/pages/Menu"
 import Header from "./components/pages/Header"
 import About from "./components/pages/About"
+import Skills from "./components/pages/Skills"
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
     <Menu />
     <Header />
     <About />
+    <Skills />
+
     </>
   );
 }
