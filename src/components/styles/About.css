@@ -3,7 +3,10 @@
     grid-template-columns: 35% 55%;
     gap: 10%; */
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 3rem;
+    width: 100%;
 }
 
 .about-container .about-me{
@@ -26,7 +29,6 @@
 }
 
 .about-me .about-me-img{
-    /* overflow: hidden; */
     transform: rotate(10deg);
     transition: var(--transition);
     position: absolute;
@@ -55,7 +57,8 @@
 
 .about-cards .about-card:hover{
     background: transparent;
-    color: var(--light-pink);
+    color: var(--medium-pink);
+    border: 1pt solid var(--dark-pink);
 }
 
 .about-card h5{
@@ -69,7 +72,7 @@
 }
 
 .about-card small{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .about-content{
@@ -110,3 +113,171 @@
     border: none;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .about-container{
+        flex-direction: column;
+    }
+
+    .about-container .about-me{
+        width: 20%;
+        margin: 1rem 2rem;
+    }
+
+    .about-cards{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-cards .about-card{
+        min-width: 30%;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-container .about-me{
+        width: 23%;
+        height: 23%;
+        margin: 0 auto 2rem;
+
+    }
+
+    .about-container .about-me img{
+        width: 100%;
+        transform: rotate(-10deg);
+    }
+
+    .about-me .about-me-img:hover{
+        transform: rotate(0deg);
+    }
+
+    .about-cards{
+        margin-top: 8rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .about-container .about-me{
+        width: 30%;
+        margin: 1rem 2rem;
+    }
+    .about-cards{
+        flex-direction: column;
+        margin-top: 12rem;
+    }
+
+    .about-cards .about-card{
+        width: 60%;
+        gap: 0.5rem;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+    }
+
+    .about-card h5{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    
+    .about-content .about-icon{
+        font-size: 2rem;
+    }
+    
+    .about-card small{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-container .about-me{
+        width: 35%;
+    }   
+        .about-cards{
+        flex-direction: column;
+        margin-top: 11rem;
+    }
+
+    .about-card h5{
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    
+    .about-content .about-icon{
+        font-size: 1.7rem;
+    }
+    
+    .about-card small{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-container .about-me{
+        width: 40%;
+    }
+    
+    .about-cards{
+        flex-direction: column;
+        margin-top: 9.5rem;
+    }
+
+    .about-card h5{
+        font-size: 0.9rem;
+        text-transform: uppercase;
+    }
+    
+    .about-content .about-icon{
+        font-size: 1.6rem;
+    }
+    
+    .about-card small{
+        font-size: 0.7rem;
+    }
+}
+
+/*@media (max-width: 320px){
+    .about-container{
+        flex-direction: column;
+    }
+
+    .about-cards{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-cards .about-card{
+        width: 70%;
+        height: 175px;
+        font-size: 2rem;
+    }
+
+    .about-content .about-icon{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .about-card h5{
+        font-size: 1.5rem;
+    }
+
+    .about-card small{
+        font-size: 1rem;
+    }
+
+    .about-container .about-me{
+        height: 180px;
+    }
+
+    .about-me img{
+        height: 180px;
+        transform: rotate(-10deg);
+    }
+} */

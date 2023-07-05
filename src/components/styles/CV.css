@@ -1,3 +1,10 @@
+.cnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+}
+
 .contact-btn{
     border: 2px solid var(--light-brown);
     text-transform: uppercase;
@@ -17,4 +24,31 @@
     transition: .5s ease-in-out;
     font-weight: 600;
     border: none;
+}
+
+@media (max-width: 600px){
+    .contact-btn {
+        margin: 20px 10px;
+        font-weight: 500 !important;
+        font-size: 0.8rem !important;
+        padding: 0.4rem !important;
+}
+
+}
+@media (max-width: 470px){
+    .contact-btn {
+        margin: 20px 10px;
+        font-weight: 500 !important;
+        font-size: 0.7rem !important;
+        padding: 0.4rem !important;
+}
+}
+
+@media (max-width: 300px){
+    .contact-btn {
+        margin: 20px 5px;
+        font-weight: 400 !important;
+        font-size: 0.7rem !important;
+        padding: 0.4rem !important;
+}
 }

@@ -4,7 +4,7 @@ import "../styles/CV.css";
 
 const CV = () => {
   return (
-    <div className='cnt d-flex'>
+    <div className='cnt'>
       <a className='contact-btn' href='#Contatos'>
         Fale Comigo!
       </a>

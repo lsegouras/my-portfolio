@@ -22,7 +22,6 @@
     /* margin-left: 0.75rem; */
     text-transform: uppercase;
     border-top: 0.1875rem solid var(--medium-black);
-    margin-top: 10px;
   }
   
   #nav .nav-link:focus{

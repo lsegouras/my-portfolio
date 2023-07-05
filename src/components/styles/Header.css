@@ -28,6 +28,18 @@
     color: var(--light-pink);
 }
 
+@media screen and (max-width: 1024){
+    header-wraper{
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width: 600){
+    header-wraper{
+        height: 100vh;
+    }
+}
+
 @media(max-width: 480px){
     .main-info h1{
         font-size: 1.188rem;
