@@ -15,7 +15,7 @@ const Menu = () => {
           <Nav className="ms-auto" id="nav">
             <Nav.Link className="nav-link" href="#About">Sobre Mim</Nav.Link>
             <Nav.Link className="nav-link" href="#Objetivos">Objetivos</Nav.Link>
-            <Nav.Link className="nav-link" href="#Experiência">Experiência</Nav.Link>
+            <Nav.Link className="nav-link" href="#Skills">Skills</Nav.Link>
             <Nav.Link className="nav-link" href="#Portfolio">Portfolio</Nav.Link>
             <Nav.Link className="nav-link" href="#Contatos">Contatos</Nav.Link>
           </Nav>

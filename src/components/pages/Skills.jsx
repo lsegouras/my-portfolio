@@ -18,7 +18,7 @@ const Skills = () => {
           <h3>Frontend Development</h3>
           <SkillsBarFront />
           <div className='obs'>
-            <p className='obs'>* Ainda Estudando</p>
+            <p className='obs'>* Ainda estudando</p>
             <p>** Estudando com maior foco e empenho</p>
           </div>
         </div>
@@ -27,7 +27,7 @@ const Skills = () => {
           <h3>Backend Development</h3>
           <SkillsBarBack />
           <div className='obs'>
-            <p className='obs'>* Ainda Estudando</p>
+            <p className='obs'>* Ainda estudando</p>
             <p>** Estudando com maior foco e empenho</p>
           </div>
         </div>

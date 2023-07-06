@@ -22,6 +22,19 @@
     border: 1pt solid var(--dark-pink);
 }
 
+.skills-container .skill-card:hover .skillbar-perc{
+    background: var(--medium-pink);
+}
+
+.skills-container .skill-card:hover .skillbar-perc .perc-tip{
+    color: var(--medium-pink);
+    background-color: var(--dark-pink);
+}
+
+.skills-container .skill-card:hover .skillbar-perc .perc-tip::before{
+    background-color: var(--dark-pink);
+}
+
 .skill-card > ul{
     margin-top: 1rem;
     padding: 0 2rem;
