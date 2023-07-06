@@ -1,3 +1,7 @@
+.goals-container{
+    margin-bottom: 1rem;
+}
+
 .goals-container p{
     display: grid;
     grid-template-columns: 1fr;

@@ -1,7 +1,4 @@
 .about-container{
-    /* display: grid;
-    grid-template-columns: 35% 55%;
-    gap: 10%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,20 +89,24 @@
     color: var(--medium-pink);
 }
 
-.contact-btn{
+.about-container .fale-btn{
     border: 2px solid var(--light-brown);
     text-transform: uppercase;
     border-radius: 0.625rem;
-    padding: 0.5rem;
+    padding: 0.5rem 1.5rem;
     font-weight: 500;
     color: var(--light-pink);
     cursor: pointer;
     text-decoration: none;
     text-align: center;
     font-size: 1rem;
+    margin-top: 2rem;
+    max-width: 15rem;
+    margin-bottom: 1.5rem;
 }
 
-.contact-btn:hover{
+
+.fale-btn:hover{
     background-color: var(--dark-pink);
     color: var(--light-pink);
     transition: .5s ease-in-out;

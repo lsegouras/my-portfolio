@@ -41,7 +41,7 @@ const About = () => {
             qual desenvolvi um site para uma consultoria de gestão ambiental.Recentemente tenho investido em ampliar meus conhecimentos em Back-end, estudando com maior ênfase Node.js, TypeScript, Python, PHP e bancos de dados relacionais e não relacionais. Tenho fluência no idioma inglês, com formação em Administração de Empresas e Psicologia, além
             de estar a poucos passos de concluir a graduação em Análise e Desenvolvimento de Sistemas. Meu perfil resiliente, experiência e habilidade em me relacionar com pessoas em diferentes contextos me proporcionam sólida capacitação em comunicação e colaboração em equipe. Versatilidade e determinação para superar desafios e cumprir metas.
           </p>
-          <a className="contact-btn" href="#Contatos">Fale Comigo!</a>
+          <a className="fale-btn" href="#Contatos">Fale Comigo!</a>
         </div>
       </div>
     </section>

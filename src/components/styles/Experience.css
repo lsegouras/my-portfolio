@@ -1,0 +1,37 @@
+.timeline{
+    margin-bottom: 1rem;
+}
+
+.timeline .title{
+    text-align: center;
+    color: var(--medium-pink);
+    font-size: 2rem;
+}
+
+.date{
+    color: var(--dark-pink);
+    font-weight: 900;
+}
+
+h3{
+    color: var(--dark-pink);
+    padding-top: 0.2rem;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+.vertical-timeline-element-content{
+    box-shadow: 0 0 5px var(--medium-pink);
+}
+
+.vertical-timeline::before{
+    background-color: var(--medium-pink)!important;
+    box-shadow: 0 0 5px var(--medium-pink)
+}
+
+.vertical-timeline-element-icon {
+    box-shadow: 0 0 5px var(--medium-pink);
+}
+
