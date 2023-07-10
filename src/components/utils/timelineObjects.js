@@ -34,7 +34,7 @@
             site: "Grupo SACS (Gestão Comercial de Shopping Centers)",
             title: "Founder",
             location: "São Paulo / SP / Brasil",
-            description: " Responsável pela área de administração de vendas, gestão de projetos e de equipes comerciais",
+            description: "Responsável pela área de administração de vendas, gestão de projetos e de equipes comerciais",
             date: "01/2020 a atual",
             duration: "3 anos e 6 meses",
             icon: "work"
@@ -44,7 +44,7 @@
             site: "Faculdade Impacta",
             title: "Técnologo em Análise e Desenvolvimento de Sistemas",
             location: "São Paulo / SP / Brasil",
-            description: "curso trancado, apenas faltando 6 meses para me graduar",
+            description: "Curso trancado, apenas faltando 6 meses para me graduar",
             date: "06/2018 a 12/2019",
             duration: "2 anos",
             icon: "school"
@@ -74,7 +74,7 @@
             site: "Escola Superior de Propaganda e Marketing - ESPM",
             title: "Bacharelado em Administração de Empresas",
             location: "São Paulo / SP / Brasil",
-            description: "graduação completa em administração de empresas com ênfase em marketing",
+            description: "Graduação completa em administração de empresas com ênfase em marketing",
             date: "06/2006 a 06/2011",
             duration: "5 anos",
             icon: "school"
@@ -84,7 +84,7 @@
             site: "Universidade Presbiteriana Mackenzie",
             title: "Bacharelado em Psicologia",
             location: "São Paulo / SP / Brasil",
-            description: "graduação completa em psicologia",
+            description: "Graduação completa em psicologia",
             date: "06/2001 a 06/2005",
             duration: "5 anos",
             icon: "school"
@@ -92,10 +92,10 @@
     
         {
             id: 10,
-            site: "Sherwood Highschool",
+            site: "Maryland / EUA",
             title: "Intercâmbio Cultural",
-            location: "São Paulo / SP / Brasil",
-            description: "estudante do 11º ano, adquirindo fluencia no idioma inglês",
+            location: "Maryland/ EUA",
+            description: "Estudante de intercâmbio, adquirindo fluência no idioma inglês",
             date: "06/1999 a 06/2000",
             duration: "1 ano",
             icon: "school"

@@ -24,6 +24,7 @@ h5{
 
 .vertical-timeline-element-content{
     box-shadow: 0 0 5px var(--medium-pink);
+    border-radius: 1.5rem;
 }
 
 .vertical-timeline::before{

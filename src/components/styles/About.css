@@ -50,6 +50,7 @@
     text-align: center;
     width: 33%;
     transition: var(--transition);
+    box-shadow: 0 0 5px var(--medium-pink)
 }
 
 .about-cards .about-card:hover{

@@ -37,10 +37,9 @@ const Skills = () => {
           <ul>
             <li>Curiosidade e capacidade para Autoaprendizado</li>
             <li>
-              Versatilidade, concentração e determinação para completar tarefas
-              difíceis
+              Versatilidade, concentração e determinação para completar tarefas complexas
             </li>
-            <li>Habilidade de agir sob pressão e resolução de problemas</li>
+            <li>Habilidade para agir sob pressão e resolver problemas</li>
             <li>Alta capacidade de comunicação e colaboração em equipe</li>
             <li>Constante aprendizado das tecnologias mais atuais</li>
           </ul>

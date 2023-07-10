@@ -15,6 +15,7 @@
     border-radius: 2.5rem;
     padding: 0.5rem;
     min-width: 30%;
+    box-shadow: 0 0 5px var(--medium-pink)
 }
 
 .skills-container .skill-card:hover{
@@ -64,3 +65,8 @@
     line-height: 0.2rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .skills-container{
+        grid-template-columns: 1fr;
+    }
+}

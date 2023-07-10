@@ -12,4 +12,5 @@
     padding: 1.5rem;
     color: var(--medium-black);
     font-weight: 600;
+    box-shadow: 0 0 5px var(--medium-pink)
 }

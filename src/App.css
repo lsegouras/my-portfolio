@@ -56,6 +56,10 @@ section > h2{
   font-weight: 700;
 }
 
+section > h5{
+  font-size: 1.3rem;
+}
+
 section > h5, section > p{
   color: var(--light-pink);
   text-align: center;
