@@ -7,6 +7,7 @@ import Skills from "./components/pages/Skills";
 import Goals from "./components/pages/Goals";
 import WhyHireMe from './components/pages/WhyHireMe';
 import Experience from './components/pages/Experience';
+import Portfolio from './components/pages/Portfolio';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <WhyHireMe />
     <Skills />
     <Experience />
+    <Portfolio />
     
 
     </>
