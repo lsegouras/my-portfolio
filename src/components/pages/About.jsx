@@ -3,6 +3,7 @@ import "../styles/About.css";
 import { BsBagHeart } from "react-icons/bs";
 import { BiSolidBookOpen } from "react-icons/bi";
 import { FaLaptopCode } from "react-icons/fa";
+import myPicture from "../assets/my-picture2.jpg"
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
       <div className='container about-container'>
         <div className='about-me'>
           <div className='about-me-img'>
-            <img src='http://placekitten.com/200/300' alt='minha foto' />
+            <img src={myPicture} alt='minha foto' />
           </div>
         </div>
 
@@ -22,7 +23,7 @@ const About = () => {
             <article className='about-card'>
               <BsBagHeart className='about-icon' />
               <h5>Experiência</h5>
-              <small>1+ realizando projetos</small>
+              <small>1+ ano realizando projetos</small>
             </article>
             <article className='about-card'>
               <BiSolidBookOpen className='about-icon' />

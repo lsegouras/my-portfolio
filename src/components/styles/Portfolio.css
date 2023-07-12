@@ -5,6 +5,7 @@
     width: 100%;
     gap: 1.5rem;
     height: 90vh;
+    margin-bottom: 1.5rem;
 }
 
 .portfolio-container .portfolio-item{

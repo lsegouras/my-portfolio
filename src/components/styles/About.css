@@ -7,28 +7,31 @@
 }
 
 .about-container .about-me{
-    width: 23%;
-    border-radius: 2rem;
+    width: 26%;
+    border-radius: 3rem;
     background: linear-gradient(
         45deg, 
         transparent, 
-        var(--light-pink), 
+        var(--medium-pink), 
         transparent);
     display: flex;
     justify-content: center;
     align-self: center;
-    height: 300px;
+    height: 275px;
     position: relative;
 }
 
 .about-me img{
-    border-radius: 2rem;
+    border-radius: 3rem;
 }
 
 .about-me .about-me-img{
     transform: rotate(10deg);
     transition: var(--transition);
     position: absolute;
+    background: var(--light-pink);
+    mix-blend-mode:luminosity;
+    border-radius: 3rem;
 }
 
 .about-me .about-me-img:hover{

@@ -1,0 +1,93 @@
+.contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}.contact .contact-container{
+    width: 80%;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container .contact-types{
+    display: flex;
+    flex-direction: column; 
+    gap: 1.2rem;
+    width: 25%;
+}
+
+.contact-types .contact-type{
+    background-color: var(--medium-pink);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 4px var(--medium-pink);
+}
+
+.contact-types .contact-type:hover{
+    background: transparent;
+    color: var(--medium-pink);
+    border: 1pt solid var(--dark-pink);
+}
+
+.contact-type .contact-icon{
+    color: var(--dark-pink);
+    font-size: 2.5rem;
+    margin: 1.5rem 0 1rem 0;
+    margin-top: -0.3rem;
+}
+
+.contact-type h4{
+    font-size: 1.5rem;
+}
+
+.contact-type .btn-contact{
+    border: 2px solid var(--dark-pink);
+    text-transform: uppercase;
+    border-radius: 0.625rem;
+    padding: 0.5rem;
+    font-weight: 500;
+    color: var(--light-pink);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.8rem;
+    width: 5rem;
+    margin-top: 0.5rem;
+    background-color: var(--dark-pink);
+    transition: var(--transition);
+}
+
+.contact-type .btn-contact:hover{
+    background-color: var(--medium-pink);
+    color: var(--dark-pink);
+}
+
+.contact-form{
+    width: 55%;
+}
+
+@media screen and (max-width: 640px){
+    .contact .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-container .contact-types{
+        width: 100%;
+        margin-bottom: 2rem;
+        align-items: center;
+    }
+
+    .contact-types .contact-type{
+        width: 70%;
+    }
+}
