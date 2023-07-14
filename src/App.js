@@ -9,6 +9,7 @@ import WhyHireMe from "./components/pages/WhyHireMe";
 import Experience from "./components/pages/Experience";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/pages/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Experience />
       <Portfolio />
       <Contact />
+      <Footer />
     </>
   );
 }
