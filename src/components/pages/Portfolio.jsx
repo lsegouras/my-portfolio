@@ -23,7 +23,7 @@ const Portfolio = () => {
             <p>
               Tecnologias utilizadas: HTML, CSS, Javascript, React, Bootstrap e
               bibliotecas do React, como: react-icons e react-ts-particles,
-              react-typed e react-vertical-timeline-component.
+              react-typed, react - vertical - timeline - component e emailjs.
             </p>
           </div>
           <div className='portfolio-links'>
