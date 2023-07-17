@@ -3,31 +3,32 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import "../styles/Footer.css"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
       <ul className='footer-links'>
         <li>
-          <a href='../../../public/index.html'>Home</a>
+          <Link to='/'>Home</Link>
         </li>
         <li>
-          <a href='#About'>Sobre Mim</a>
+          <Link to='/about'>Sobre Mim</Link>
         </li>
         <li>
-          <a href='#Goals'>Meus Objetivos</a>
+          <Link to='/goals'>Meus Objetivos</Link>
         </li>
         <li>
-          <a href='#WhyHireMe'>Por Que Me Contratar</a>
+          <Link to='/whyhireme'>Por Que Me Contratar</Link>
         </li>
         <li>
-          <a href='#Skills'>Minhas Habilidades</a>
+          <Link to='/skills'>Minhas Habilidades</Link>
         </li>
         <li>
-          <a href='#Experience'>Minha Experiência</a>
+          <Link to='/experience'>Minha Experiência</Link>
         </li>
         <li>
-          <a href='#Contact'>Entre em Contato</a>
+          <Link to='/contact'>Entre em Contato</Link>
         </li>
       </ul>
 
@@ -40,14 +41,14 @@ const Footer = () => {
           <FaFacebook className="socials-icon" />
         </a>
         <a
-          href='https://www.facebook.com/laura.segouras'
+          href='https://www.instagram.com/lausegouras'
           target='_blank'
           rel='noreferrer'
         >
           <FaInstagram className="socials-icon"/>
         </a>
         <a
-          href='https://www.facebook.com/laura.segouras'
+          href='https://www.linkedin.com/in/laurasegouras'
           target='_blank'
           rel='noreferrer'
         >

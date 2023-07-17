@@ -1,13 +1,14 @@
 import React from "react";
 import Curriculo from "../assets/cv.pdf";
 import "../styles/CV.css";
+import { Link } from "react-router-dom";
 
 const CV = () => {
   return (
     <div className='cnt'>
-      <a className='contact-btn' href='#Contatos'>
+      <Link to="/contact" className='contact-btn'>
         Fale Comigo!
-      </a>
+      </Link>
       <a className='contact-btn' href={Curriculo} download>
         Baixar CV
       </a>
