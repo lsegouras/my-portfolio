@@ -1,3 +1,7 @@
+#skills{
+    margin-top: -6rem;
+}
+
 .skills-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -66,7 +70,17 @@
 }
 
 @media screen and (max-width: 1024px) {
+    #skills{
+        margin-top: -3rem;
+    }
+    
     .skills-container{
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #skills{
+        margin-top: -1rem;
     }
 }
