@@ -9,7 +9,7 @@ const Menu = () => {
 
 <Navbar expand="lg" className="navbar">
       <Container>
-        <Navbar.Brand className="navbar-brand" href="#home">Portfolio <br /> Laura Segouras</Navbar.Brand>
+        <Navbar.Brand className="navbar-brand" href="https://my-portfolio-lsegouras.vercel.app/">Portfolio <br /> Laura Segouras</Navbar.Brand>
         <Navbar.Toggle className="toggle" style={{ backgroundColor: "#F2C6A0"}} aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="collapse" id="basic-navbar-nav">
           <Nav className="ms-auto" id="nav">

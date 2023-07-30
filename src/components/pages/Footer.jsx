@@ -10,7 +10,7 @@ const Footer = () => {
     <footer>
       <ul className='footer-links'>
         <li>
-          <Link to='/'>Home</Link>
+          <Link to='https://my-portfolio-lsegouras.vercel.app/'>Home</Link>
         </li>
         <li>
           <Link to='/about'>Sobre Mim</Link>
