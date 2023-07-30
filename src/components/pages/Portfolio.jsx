@@ -1,5 +1,10 @@
 import React from "react";
-import project1 from "../assets/project1.jpg";
+import project1 from "../assets/portfolio_screen.png";
+import project2 from "../assets/register_app_screen.png"
+import project3 from "../assets/esg_impact_screen.png"
+import project4 from "../assets/advisor_app_screen.png"
+import project5 from "../assets/form_app_screen.png"
+
 import "../styles/Portfolio.css";
 
 const Portfolio = () => {
@@ -23,12 +28,12 @@ const Portfolio = () => {
             <p>
               Tecnologias utilizadas: HTML, CSS, Javascript, React, Bootstrap e
               bibliotecas do React, como: react-icons e react-ts-particles,
-              react-typed, react - vertical - timeline - component e emailjs.
+              react-simple-typewriter, react - vertical-timeline-component e emailjs.
             </p>
           </div>
           <div className='portfolio-links'>
             <a
-              href='https://github.com/lsegouras'
+              href='https://github.com/lsegouras/my-portfolio'
               className='portfolio-link'
               target='_blank'
               rel='noreferrer'
@@ -36,18 +41,18 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href='http://drible.com/Aliens_pixels'
+              href='https://my-portfolio-lsegouras.vercel.app'
               className='portfolio-link'
               target='_blank'
               rel='noreferrer'
             >
-              Demo
+              Site
             </a>
           </div>
         </article>
         <article className='portfolio-item'>
           <div className='portfolio-item-img'>
-            <img src={project1} alt='project 1' />
+            <img src={project2} alt='project 2' />
             <h5>APP de Registro de Usuários com API de Usuários</h5>
           </div>
           <div className='project-info'>
@@ -59,13 +64,13 @@ const Portfolio = () => {
               Desenvolvimento de API simples de registro de usuários.
             </p>
             <p>
-              Tecnologias utilizadas: front-end – HTML, CSS, Javascript e React
+              Tecnologias utilizadas: front-end – HTML, CSS, Bootstrap, Javascript e React
               / back-end: Node.js e Express.
             </p>
           </div>
           <div className='portfolio-links'>
             <a
-              href='https://github.com/lsegouras'
+              href='https://github.com/lsegouras/register-react-app'
               className='portfolio-link'
               target='_blank'
               rel='noreferrer'
@@ -73,7 +78,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href='http://drible.com/Aliens_pixels'
+              href='https://register-react-lsegouras.netlify.app'
               className='portfolio-link'
               target='_blank'
               rel='noreferrer'
@@ -84,7 +89,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio-item'>
           <div className='portfolio-item-img'>
-            <img src={project1} alt='project 1' />
+            <img src={project3} alt='project 3' />
             <h5>Site Institucional</h5>
           </div>
           <div className='project-info'>
@@ -98,7 +103,7 @@ const Portfolio = () => {
           </div>
           <div className='portfolio-links'>
             <a
-              href='https://github.com/lsegouras'
+              href='https://github.com/lsegouras/site_esg_impact'
               className='portfolio-link'
               target='_blank'
               rel='noreferrer'
@@ -106,7 +111,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href='http://drible.com/Aliens_pixels'
+              href='https://site-esg-impact.vercel.app'
               className='portfolio-link'
               target='_blank'
               rel='noreferrer'
@@ -117,7 +122,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio-item'>
           <div className='portfolio-item-img'>
-            <img src={project1} alt='project 1' />
+            <img src={project4} alt='project 4' />
             <h5>APP de Conselhos</h5>
           </div>
           <div className='project-info'>
@@ -130,7 +135,7 @@ const Portfolio = () => {
           </div>
           <div className='portfolio-links'>
             <a
-              href='https://github.com/lsegouras'
+              href='https://github.com/lsegouras/advisor-app'
               className='portfolio-link'
               target='_blank'
               rel='noreferrer'
@@ -138,7 +143,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href='http://drible.com/Aliens_pixels'
+              href='https://advisor-lsegouras.netlify.app'
               className='portfolio-link'
               target='_blank'
               rel='noreferrer'
@@ -147,9 +152,9 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article className='portfolio-item c'>
+        <article className='portfolio-item'>
           <div className='portfolio-item-img'>
-            <img src={project1} alt='project 1' />
+            <img src={project5} alt='project 5' />
             <h5>APP de validação de formulário</h5>
           </div>
           <div className='project-info'>
@@ -161,7 +166,7 @@ const Portfolio = () => {
           </div>
           <div className='portfolio-links'>
             <a
-              href='https://github.com/lsegouras'
+              href='https://github.com/lsegouras/form-with-vadidation'
               className='portfolio-link'
               target='_blank'
               rel='noreferrer'
@@ -169,7 +174,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href='http://drible.com/Aliens_pixels'
+              href='https://form-with-validation-lsegouras.netlify.app'
               className='portfolio-link'
               target='_blank'
               rel='noreferrer'

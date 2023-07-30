@@ -35,6 +35,10 @@
     min-height: 150px;
 }
 
+.portfolio-item-img img{
+    width: 50%;
+}
+
 .portfolio-item p{
     color: var(--medium-pink);
     text-align: justify;
