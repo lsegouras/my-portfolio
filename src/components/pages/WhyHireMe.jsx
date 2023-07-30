@@ -4,7 +4,7 @@ import "../styles/WhyHireMe.css";
 
 const WhyHireMe = () => {
   return (
-    <section>
+    <section id="why">
       <h5>Saiba</h5>
       <h2>Por que me contratar?</h2>
       <div className='why-container'>

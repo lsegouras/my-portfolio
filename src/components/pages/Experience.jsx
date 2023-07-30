@@ -14,7 +14,7 @@ const Experience = () => {
   let schoolIconStyles = { background: "var(--dark-pink)" };
 
   return (
-    <section>
+    <section id="experience">
       <h5>Conheça</h5>
       <h2>Minha Experiência</h2>
       <div className='timeline'>

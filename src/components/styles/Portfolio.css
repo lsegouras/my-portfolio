@@ -4,8 +4,6 @@
     align-items: flex-start;
     width: 100%;
     gap: 1.5rem;
-    height: 90vh;
-    margin-bottom: 1.5rem;
 }
 
 .portfolio-container .portfolio-item{
@@ -18,6 +16,10 @@
     border: 2pt solid var(--dark-pink);
     box-shadow: 0 0 4px var(--medium-pink);
     height: 100%;
+}
+
+.portfolio-item.c{
+    height: 37.1rem;
 }
 
 .portfolio-item .portfolio-item-img{
@@ -103,15 +105,17 @@
     border: none;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
     .portfolio-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 100%;
-        height: 50%;
+        height: 100%;
+        margin-left: 6rem;
     }
+
     .portfolio-container .portfolio-item{
-        width: 90%;
+        width: 80%;
     }
 
     .portfolio-item .project-info{
@@ -132,12 +136,48 @@
     }
 }
 
-@media screen and (max-width: 930px){
+@media screen and (max-width: 1040px){
+    .portfolio-item .portfolio-links{
+        margin-top: 5rem;
+    }
+    
+    .portfolio-item .portfolio-links-c{
+        margin-top: -1.6rem;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .portfolio-container{
+        column-gap: 0rem;
+    }
+    
+    .portfolio-item .portfolio-links{
+        margin-top: 5.9rem;
+    }
+    
+    .portfolio-item .portfolio-links-c{
+        margin-top: -0.7rem;
+    }
+}
+
+@media screen and (max-width: 680px){
     .portfolio-container{
         grid-template-columns: 1fr;
     }
     .portfolio-container .portfolio-item{
-        margin-left: 5%;
+        margin-left: 2.5%;
+    }
+
+    .portfolio-container .portfolio-item.c{
+        max-height: 87%;
+    }
+
+    .portfolio-item .portfolio-links{
+        margin-top: 2.9rem;
+    }
+    
+    .portfolio-item .portfolio-links-c{
+        margin-top: -4rem;
     }
 }
 
@@ -155,6 +195,7 @@
 .portfolio-item .portfolio-links-c{
     flex-direction: column;
     gap: 0;
+    margin-top: 0.1px;
 }
 
 .portfolio-item .portfolio-link{

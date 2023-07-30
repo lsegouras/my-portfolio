@@ -146,19 +146,18 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article className='portfolio-item'>
+        <article className='portfolio-item c'>
           <div className='portfolio-item-img'>
             <img src={project1} alt='project 1' />
-            <h5>APP de validação de formulário</h5>
+            <h5>APP de validação de formulário</h5><br />
           </div>
           <div className='project-info'>
-          <br />
             <p>
               Descrição: desenvolvimento de um app de validação de formulário.
             </p>
             <p>Tecnologias Utilizadas: HTML, CSS e Javascript.</p>
           </div>
-          <div className='portfolio-links'>
+          <div className='portfolio-links a'>
             <a
               href='https://github.com/lsegouras'
               className='portfolio-link'

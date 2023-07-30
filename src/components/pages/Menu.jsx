@@ -9,12 +9,13 @@ const Menu = () => {
 
 <Navbar expand="lg" className="navbar">
       <Container>
-        <Navbar.Brand className="navbar-brand" href="#home">Portfolio de Laura Segouras</Navbar.Brand>
+        <Navbar.Brand className="navbar-brand" href="#home">Portfolio <br /> Laura Segouras</Navbar.Brand>
         <Navbar.Toggle className="toggle" style={{ backgroundColor: "#F2C6A0"}} aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="collapse" id="basic-navbar-nav">
           <Nav className="ms-auto" id="nav">
             <Nav.Link className="nav-link" href="/about">Sobre Mim</Nav.Link>
             <Nav.Link className="nav-link" href="/goals">Objetivos</Nav.Link>
+            <Nav.Link className="nav-link" href="/why">Pq me contratar</Nav.Link>
             <Nav.Link className="nav-link" href="/skills">Skills</Nav.Link>
             <Nav.Link className="nav-link" href="/experience">Experiência</Nav.Link>
             <Nav.Link className="nav-link" href="/portfolio">Portfolio</Nav.Link>

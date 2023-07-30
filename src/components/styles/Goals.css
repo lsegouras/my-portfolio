@@ -1,11 +1,13 @@
 section{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
+
 .goals-container{
-    margin-bottom: 1rem;
     background-color: var(--medium-black);
+    padding-bottom: 7%;
 }
 
 .goals-container p{
@@ -21,6 +23,7 @@ section{
     font-weight: 600;
     box-shadow: 0 0 5px var(--medium-pink);
 }
+
 
 @media screen and (max-width: 600px){
     .goals-container{

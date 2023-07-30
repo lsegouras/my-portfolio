@@ -1,14 +1,21 @@
-
-
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
 .why-container{
     margin-bottom: 1rem;
+    background-color: var(--medium-black);
+    
 }
 
 .why-container .why-list{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     width: 80%;
-    margin: 0 10%;
+    margin: 5% 10%;
     background-color: var(--medium-pink);
     border-radius: 2rem;
     padding: 1.5rem;
