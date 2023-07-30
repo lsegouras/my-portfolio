@@ -19,7 +19,7 @@ const Footer = () => {
           <Link to='/goals'>Meus Objetivos</Link>
         </li>
         <li>
-          <Link to='/whyhireme'>Por Que Me Contratar</Link>
+          <Link to='/why'>Por Que Me Contratar</Link>
         </li>
         <li>
           <Link to='/skills'>Minhas Habilidades</Link>
@@ -56,7 +56,7 @@ const Footer = () => {
         </a>
       </div>
       <div className='copyright'>
-        <small>{'\u00A9'} Laura Segouras. Todos os direitos reservados</small>
+        <small>{'\u00A9'} Laura Segouras. Todos os direitos reservados.</small>
       </div>
     </footer>
   );
