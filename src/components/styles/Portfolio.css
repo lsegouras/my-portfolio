@@ -32,11 +32,20 @@
     color: var(--dark-pink);
     text-align: center;
     margin-top: 1rem;
-    min-height: 150px;
+    min-height: 12rem;
 }
 
 .portfolio-item-img img{
     width: 50%;
+}
+
+.portfolio-item-img h3{
+    font-size: 1rem;
+}
+
+.portfolio-item-img h5{
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
 }
 
 .portfolio-item p{
@@ -89,7 +98,9 @@
 }
 
 @media screen and (max-width: 890px){
-    .portfolio-item .portfolio-links{
+    .portfolio-item .portfolio-item-img{
+        min-height: 10rem;
+    }.portfolio-item .portfolio-links{
         margin-top: 14rem;
     }
 }
@@ -97,6 +108,10 @@
 @media screen and (max-width: 830px){
     .portfolio-container .portfolio-item{
         flex-basis: 45%;
+    }
+
+    .portfolio-item-img h5{
+        font-size: 1rem;
     }
 }
 

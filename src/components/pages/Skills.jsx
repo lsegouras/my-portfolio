@@ -35,13 +35,13 @@ const Skills = () => {
           <BiWinkSmile className='skills-icon' />
           <h3>Soft Skills</h3>
           <ul>
-            <li>Curiosidade e capacidade para Autoaprendizado</li>
+            <li>Curiosidade e capacidade para Autoaprendizado;</li>
             <li>
-              Versatilidade, concentração e determinação para completar tarefas complexas
+              Versatilidade, concentração e determinação para completar tarefas complexas;
             </li>
-            <li>Habilidade para agir sob pressão e resolver problemas</li>
-            <li>Alta capacidade de comunicação e colaboração em equipe</li>
-            <li>Constante aprendizado das tecnologias mais atuais</li>
+            <li>Habilidade para agir sob pressão e resolver problemas;</li>
+            <li>Alta capacidade de comunicação e colaboração em equipe;</li>
+            <li>Constante aprendizado das tecnologias mais atuais.</li>
           </ul>
         </div>
       </div>

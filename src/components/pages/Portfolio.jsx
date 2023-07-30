@@ -18,6 +18,7 @@ const Portfolio = () => {
           <div className='portfolio-item-img'>
             <img src={project1} alt='project 1' />
             <h5>APP de Portfólio de Trabalho</h5>
+            <h3>Data: Jul/2023</h3>
           </div>
           <div className='project-info'>
             <p>
@@ -54,6 +55,7 @@ const Portfolio = () => {
           <div className='portfolio-item-img'>
             <img src={project2} alt='project 2' />
             <h5>APP de Registro de Usuários com API de Usuários</h5>
+            <h3>Data: Jun/2023</h3>
           </div>
           <div className='project-info'>
             <p>
@@ -91,6 +93,7 @@ const Portfolio = () => {
           <div className='portfolio-item-img'>
             <img src={project3} alt='project 3' />
             <h5>Site Institucional</h5>
+            <h3>Data: Fev/2023</h3>
           </div>
           <div className='project-info'>
             <p>
@@ -124,6 +127,7 @@ const Portfolio = () => {
           <div className='portfolio-item-img'>
             <img src={project4} alt='project 4' />
             <h5>APP de Conselhos</h5>
+            <h3>Data: Jan/2023</h3>
           </div>
           <div className='project-info'>
             <p>
@@ -156,6 +160,7 @@ const Portfolio = () => {
           <div className='portfolio-item-img'>
             <img src={project5} alt='project 5' />
             <h5>APP de validação de formulário</h5>
+            <h3>Data: Dez/2022</h3>
           </div>
           <div className='project-info'>
             <p>
