@@ -85,7 +85,7 @@ const Portfolio = () => {
               target='_blank'
               rel='noreferrer'
             >
-              Demo
+              Site
             </a>
           </div>
         </article>
@@ -119,7 +119,7 @@ const Portfolio = () => {
               target='_blank'
               rel='noreferrer'
             >
-              Demo
+              Site
             </a>
           </div>
         </article>
@@ -152,7 +152,7 @@ const Portfolio = () => {
               target='_blank'
               rel='noreferrer'
             >
-              Demo
+              Site
             </a>
           </div>
         </article>
@@ -184,7 +184,7 @@ const Portfolio = () => {
               target='_blank'
               rel='noreferrer'
             >
-              Demo
+              Site
             </a>
           </div>
         </article>
