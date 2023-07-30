@@ -46,12 +46,13 @@ const Portfolio = () => {
           </div>
         </article>
         <article className='portfolio-item'>
-          <div className='portfolio-item-img-c'>
+          <div className='portfolio-item-img'>
             <img src={project1} alt='project 1' />
             <h5>APP de Registro de Usuários com API de Usuários</h5>
           </div>
-          <div className='project-info-c'>
+          <div className='project-info'>
             <p>
+            <br />
               Descrição: desenvolvimento de um app de registro de usuários
               (login), com interface para preenchimento de formulário pelo
               usuário e botão para deletar o usuário, com deploy no Netlify.
@@ -62,7 +63,7 @@ const Portfolio = () => {
               / back-end: Node.js e Express.
             </p>
           </div>
-          <div className='portfolio-links-c'>
+          <div className='portfolio-links'>
             <a
               href='https://github.com/lsegouras'
               className='portfolio-link'
@@ -149,15 +150,16 @@ const Portfolio = () => {
         <article className='portfolio-item c'>
           <div className='portfolio-item-img'>
             <img src={project1} alt='project 1' />
-            <h5>APP de validação de formulário</h5><br />
+            <h5>APP de validação de formulário</h5>
           </div>
           <div className='project-info'>
             <p>
+            <br />
               Descrição: desenvolvimento de um app de validação de formulário.
             </p>
             <p>Tecnologias Utilizadas: HTML, CSS e Javascript.</p>
           </div>
-          <div className='portfolio-links a'>
+          <div className='portfolio-links'>
             <a
               href='https://github.com/lsegouras'
               className='portfolio-link'
