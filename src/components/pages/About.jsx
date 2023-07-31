@@ -3,7 +3,7 @@ import "../styles/About.css";
 import { BsBagHeart } from "react-icons/bs";
 import { BiSolidBookOpen } from "react-icons/bi";
 import { FaLaptopCode } from "react-icons/fa";
-import myPicture from "../assets/my-picture2.jpg";
+import myPicture from "../assets/my-picture2.jpeg";
 import { Link } from "react-router-dom";
 
 const About = () => {
